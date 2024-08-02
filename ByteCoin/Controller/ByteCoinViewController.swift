@@ -102,7 +102,6 @@ class ByteCoinViewController: UIViewController {
 }
 
 //MARK: - Constraints
-
 extension ByteCoinViewController {
     func setConstraints() {
         NSLayoutConstraint.activate([
