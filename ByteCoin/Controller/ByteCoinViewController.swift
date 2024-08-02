@@ -102,7 +102,6 @@ class ByteCoinViewController: UIViewController {
 }
 
 //MARK: - Constraints
-
 extension ByteCoinViewController {
     func setConstraints() {
         NSLayoutConstraint.activate([
@@ -157,7 +156,6 @@ extension ByteCoinViewController: UIPickerViewDelegate {
         let selectedCurrency = coinManager.currencyArray[row]
         coinManager.getCoinPrice(for: selectedCurrency)
         currencyLabel.text = selectedCurrency
-        
     }
 }
 
