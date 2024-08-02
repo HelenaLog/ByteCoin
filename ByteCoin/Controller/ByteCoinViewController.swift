@@ -157,7 +157,6 @@ extension ByteCoinViewController: UIPickerViewDelegate {
         let selectedCurrency = coinManager.currencyArray[row]
         coinManager.getCoinPrice(for: selectedCurrency)
         currencyLabel.text = selectedCurrency
-        
     }
 }
 
