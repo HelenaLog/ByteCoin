@@ -148,7 +148,6 @@ extension ByteCoinViewController: UIPickerViewDataSource {
 }
 
 //MARK: - UIPickerViewDelegate
-
 extension ByteCoinViewController: UIPickerViewDelegate {
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return coinManager.currencyArray[row]
@@ -163,7 +162,6 @@ extension ByteCoinViewController: UIPickerViewDelegate {
 }
 
 //MARK: - CoinManagerDelegate
-
 extension ByteCoinViewController: CoinManagerDelegate {
     
     func didUpdatePrice(_ coinManager: CoinManager, price: String) {
