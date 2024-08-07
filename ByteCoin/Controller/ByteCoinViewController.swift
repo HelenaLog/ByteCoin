@@ -169,6 +169,6 @@ extension ByteCoinViewController: CoinManagerDelegate {
     }
     
     func didFailWithError(_ coinManager: CoinManager, error: Error) {
-        print(error)
+        print(error.localizedDescription)
     }
 }
